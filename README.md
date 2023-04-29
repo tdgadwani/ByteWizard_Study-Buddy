@@ -1,11 +1,11 @@
 # ByteVerse_ByteWizards
 Project-Study Buddy
-PPT link-
+PPT link-https://shorturl.at/tvEI4
 
 Video link-
-Presentation Video:-
+Presentation Video:- https://shorturl.at/uZ049
 
-Implementation Video:- 
+Implementation Video:- https://shorturl.at/AFI16
 
 STUDY BUDDY:
 A non-profit welfare project that strives to give students the opportunity to build connections
