@@ -1,0 +1,200 @@
+.password_class{
+    position: absolute;
+width: 579px;
+height: 50px;
+left: 55px;
+top: 458px;
+
+background: #E0E0E0;
+border-radius: 21px;
+border: transparent;
+}
+.label_password_class{
+    position: absolute;
+width: 189px;
+height: 33px;
+left: 59px;
+top: 425px;
+
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+
+color: #000000;
+}
+
+.email_class{
+    position: absolute;
+    width: 579px;
+    height: 50px;
+    left: 55px;
+    top: 350px;
+    
+    background: #E0E0E0;
+    border-radius: 21px;
+    border: transparent;
+}
+.label_email_class{
+    position: absolute;
+width: 189px;
+height: 33px;
+left: 66px;
+top: 317px;
+
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+
+color: #000000;
+
+}
+
+.mobile_label{
+
+    position: absolute;
+width: 189px;
+height: 33px;
+left: 59px;
+top: 425px;
+
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+
+color: #000000;
+}
+#num{
+    position: absolute;
+width: 245px;
+height: 50px;
+left: 55px;
+top: 458px;
+
+background: #E0E0E0;
+border-radius: 21px;
+border: transparent;
+}
+
+.userName_class{
+    position: absolute;
+width: 245px;
+height: 50px;
+left: 59px;
+top: 241px;
+
+background: #E0E0E0;
+border-radius: 21px;
+border: transparent;
+}
+
+
+
+
+.label_userName_class{
+    position: absolute;
+width: 189px;
+height: 33px;
+left: 66px;
+top: 206px;
+
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+
+color: #000000;
+}
+
+.login_image{
+    position: absolute;
+    width: 739px;
+   
+    left: 720px;
+    top: 00px;
+}
+
+.Login_page h2{
+    position: absolute;
+width: 501px;
+height: 74px;
+left: 55px;
+top: 65px;
+
+
+font-weight: 400;
+font-size: 49px;
+line-height: 74px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.Login_page h6{
+    position: absolute;
+width: 360px;
+height: 36px;
+left: 55px;
+top: 137px;
+
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.login_link{
+    
+    text-decoration: none;
+   
+    
+    transition:0.3s ease-in-out;
+    color: #455A64;
+}
+.login_link:hover{
+    color: #13191c;
+    transform:scale(1.2);
+    
+
+}
+
+.label_join_community{
+    position: absolute;
+width: 311px;
+height: 33px;
+left: 59px;
+top: 560px;
+
+
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+
+color: #000000;
+}
+
+.join_community{
+    position: absolute;
+width: 161px;
+height: 59px;
+left: 240px;
+top: 554px;
+
+background: #455A64;
+border-radius: 50px;
+color: white;
+font-size: 20px;
+}
+
+.create_button{
+    position: absolute;
+width: 189px;
+height: 71px;
+left: 170px;
+top: 650px;
+
+background: #455A64;
+border-radius: 82px;
+color: white;
+font-size: 20px;
+}

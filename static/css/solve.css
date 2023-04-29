@@ -1,0 +1,65 @@
+.solve_heading{
+    text-align: center;
+   
+}
+.solve_heading h1{
+    font-size: 80px;
+}
+.navbar a{
+   
+  color: white;
+  transition: 0.3s ease-in-out;
+
+
+
+}
+
+.navbar a:hover{
+  color: #707070;
+
+}
+
+.solve_doubt_row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.button_submit{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-title span{
+    padding: 0px 8px;
+    
+}
+span #date{
+    padding-left: 10px;
+    color: grey;
+}
+
+
+.bottom{
+    padding-top: 40px;
+ }
+ .bottom .bottoms{
+    
+    padding-left: 20px;
+    height: 50px;
+ }
+
+ .solve_doubts{
+  opacity: 50%;
+ }
+
+ .solve_background_image{
+    position:absolute;
+    z-index: -1;
+    top: 100px;
+    left: 400px;
+
+ }
+ .solve_background_image img{
+    width: 700px;
+ }

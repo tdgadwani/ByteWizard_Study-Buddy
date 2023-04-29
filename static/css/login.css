@@ -1,0 +1,69 @@
+body{
+    background:linear-gradient(#455A64, white) ;
+}
+.form_enteries{
+    padding-top: 150px;
+    padding-left: 95px;
+}
+
+.login_page_head{
+    margin-bottom: 30px ;
+}
+.navbar a{
+   
+  color: white;
+  transition: 0.3s ease-in-out;
+
+
+
+}
+
+.navbar a:hover{
+  color: #707070;
+
+}
+a{
+    text-decoration: none;
+    color: #455A64;
+    font-size: 15px;
+}
+
+.login_input{
+    width:50%;
+    height: 40px;
+    background: #E0E0E0;
+    border-radius: 21px;
+    border: transparent;
+}
+.login_button{
+    width: 140px;
+height: 50px;
+background: #455A64;
+border-radius: 82px;
+color: white;
+font-size: 20px;
+border: transparent;
+margin-left: 160px;
+}
+
+.login_memo{
+  position: absolute;
+    opacity: 15%;
+   top: 160px;
+  width: 50%;
+    left: 71px;
+    z-index: -1;
+}
+.login_memo img{
+
+    width: 100%;
+}
+
+
+
+/* Media Queries------- */
+
+@media screen and (max-width:450px){
+
+   
+}

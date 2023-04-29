@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section>
+            
+        <div class='Login_page'>
+        <h2 >Create New Account</h2>
+        <h6>Already have an Account? <span><a href="#" class='login_link'>Login</a></span></h6>
+            <div class="login_form_section">
+            <form action="">
+                <div >
+                <label htmlFor="userName" class="label_userName_class" >Name: </label>
+                <input type="text"  class="userName_class"/>
+                </div>
+                
+                <div >
+                <label htmlFor="emailId" class='label_email_class'>Email Id: </label>
+                <input type="email" class="email_class" />
+
+                </div>
+                <div>
+                    <label htmlFor="phoneno" class='mobile_label'>Mobile no.</label>
+                    <input type="tel" name='num' id='num' pattern="[0-9]{10}"  required/>
+                </div>
+                <div >
+                <label htmlFor="Password" class="label_password_class">Password: </label>
+                <input type="password" class="password_class" />
+
+                </div>
+
+                <div>
+                    <label htmlFor="community_button" class='label_join_community'>Join Community</label>
+                    <button class='join_community'>Join</button>
+                </div>
+                
+                <button type='submit' class='create_button'>Create</button>
+                    
+            </form>
+                
+            </div>
+            <div class="login_image_section">
+                <img class="login_image" src="./img/login.svg" alt="" />
+            </div>
+        </div>
+    </section>
+</body>
+</html>

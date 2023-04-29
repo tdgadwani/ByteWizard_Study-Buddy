@@ -1,0 +1,129 @@
+body{
+    background: linear-gradient(#455A64,white);
+}
+.form_enteries{
+    padding-top: 50px;
+    padding-left: 55px;
+}
+
+.login_page_head{
+    padding-top: 10px;
+}
+.navbar a{
+   
+  color: white;
+  transition: 0.3s ease-in-out;
+
+
+
+}
+
+.navbar a:hover{
+  color: #707070;
+
+}
+
+.login_input{
+    width: 420px;
+    height: 40px;
+    background: #E0E0E0;
+    border-radius: 21px;
+    border: transparent;
+}
+
+.login_name{
+
+    width: 180px;
+}
+.login_lastname{
+    margin-right: 270px;
+}
+.first_last_name{
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup_button{width: 140px;
+    height: 50px;
+    background: #455A64;
+    border-radius: 82px;
+    color: white;
+    font-size: 20px;
+    border: transparent;
+    margin-left: 128px;
+    margin-top: 30px;
+
+}
+a{
+    text-decoration: none;
+    color: #455A64;
+    font-size: 15px;
+}
+
+.join_communities{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-right: 340px;
+}
+.join_communities button{
+    height: 50px;
+    width:90px;
+    background: #455A64;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+    border: transparent;
+}
+
+.modal-title{
+    padding-left: 133px;
+    color: #455A64;
+}
+
+.card-text{
+    visibility: hidden;
+}
+
+.modal-body{
+    background:linear-gradient(to bottom,white,#455A64);
+}
+
+.modal-footer .btn{
+    background: #455A64;
+}
+#staticBackdropLabel1{
+    background: #455A64;
+    color: white;
+}
+button a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+
+
+@media screen and (max-width:500px) {
+    .login_lastname {
+    margin-right: 3px;
+}
+.mb-3{
+    padding-right: 10px;
+}
+
+input{
+    margin-right: 20px;
+}
+.login_input{
+    width: 80%;
+}
+
+.signup_button{
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+
+    
+}

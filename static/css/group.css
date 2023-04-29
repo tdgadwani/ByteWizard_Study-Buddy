@@ -1,0 +1,79 @@
+.upper_group{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.upper_group:first-child{
+    align-self: flex-start;
+}
+.create_group{
+    margin-left: 400px;
+    margin-top: 100px;
+}
+.navbar a{
+   
+  color: white;
+  transition: 0.3s ease-in-out;
+
+
+
+}
+
+.navbar a:hover{
+  color: #707070;
+
+}
+.create_group button{
+    margin-left: 180px;
+    margin-top: 20px;
+    padding: 20px 50px;
+    border-radius: 20px;
+    font-size: 23px;
+}
+.create_group h1{
+    font-size: 60px;
+}
+.heading_class{
+    position: relative;
+    width: 100%;
+}
+.heading_class h1{
+position: absolute;
+left: 24%;
+}
+
+.heading_image{
+    position: relative;
+    width: 100%;
+    top: 40px;
+    left: 30%;
+}
+.heading_image img{
+    width: 40%;
+   
+}
+
+
+
+.bottom{
+    padding-top: 40px;
+ }
+ .bottom .bottoms{
+    
+    padding-left: 20px;
+    height: 50px;
+ }
+
+ .groups_old{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin-top: 40px;
+
+ }
+
+ .card{
+    opacity: 40%;
+ }
