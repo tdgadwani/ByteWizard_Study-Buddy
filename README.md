@@ -1,11 +1,11 @@
 # ByteVerse_ByteWizards
 Project-Study Buddy
-ppt link-https://www.canva.com/design/DAFfhyzA2Ms/fJj0rTlz9GClFd4R4U26MQ/edit?utm_content=DAFfhyzA2Ms&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+ppt link-
 
 video link-
-Presentation Video:- https://youtu.be/QcqveRvPwXk
+Presentation Video:-
 
-Implementation Video:- https://youtu.be/5H-LhgE9A28
+Implementation Video:- 
 
 STUDY BUDDY:
 A non-profit welfare project that strives to give students the opportunity to build connections
@@ -60,23 +60,19 @@ Dependencies:-
 
 For locally setting this project run these commands
 
-
-
        git clone https://github.com/krcpr007/hackNITP_INQUERA.git
 
-      
-      
        cd hackNITP_INQUERA
 
-       
-       
        npm install bcryptjs connect-ensure-login ejs express express-session mongoose multer passport passport-local passport-local-mongoose uuid 
-
-       
        
        nodemon index.js
 
 
+<img width="480" alt="Screenshot 2023-04-29 174013" src="https://user-images.githubusercontent.com/97385715/235301861-2a7e1a2f-5b49-4800-bbc1-3473d3956f53.png">
+<img width="480" alt="Screenshot 2023-04-29 173925" src="https://user-images.githubusercontent.com/97385715/235301863-e0236e6d-03c0-4a4c-946d-eb70fadee22e.png">
+<img width="480" alt="Screenshot 2023-04-29 173849" src="https://user-images.githubusercontent.com/97385715/235301865-5cb546a2-4c25-4df5-ba0b-e2c2275be78a.png">
+<img width="480" alt="Screenshot 2023-04-29 173821" src="https://user-images.githubusercontent.com/97385715/235301866-f6dea962-a072-4fbf-94b0-6a1a74a1dc31.png">
 
 
 
