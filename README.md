@@ -33,26 +33,44 @@ Express.js :
 Simplified development process.
 Full-stack development.
 MULTER  :
+For Storing Images
 Postman :
 Simplified API development
 
 
-Dependencies of our project:
+Dependencies for Backend (Nodejs)
+
 Dependencies:-
 
 
 
-    bcryptjs: ^2.4.3,
+    "bcryptjs": "^2.4.3",
+    "connect-ensure-login": "^0.1.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mongoose": "^6.2.1",
+    "multer": "^1.4.5-lts.1",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^8.0.0",
+    "uuid": "^9.0.0"
 
-    ejs: ^3.1.9,
-    
-    express: ^4.18.2,
-    
-    hbs: ^4.2.0,
-    
-    mongoose: ^6.2.1,
-    
-    multer: ^1.4.5-lts.1
+
+
+For locally setting this project run these commands
+
+
+
+      git clone https://github.com/krcpr007/hackNITP_INQUERA.git
+
+      cd hackNITP_INQUERA
+
+      npm install bcryptjs connect-ensure-login ejs express express-session mongoose multer passport passport-local passport-local-mongoose uuid 
+
+      nodemon index.js
+
+
 
 
 
