@@ -60,11 +60,11 @@ Dependencies:-
 
 For locally setting this project run these commands
 
-       git clone https://github.com/krcpr007/hackNITP_INQUERA.git
+       git clone https://github.com/tdgadwani/ByteWizards_Study-Buddy.git
 
-       cd hackNITP_INQUERA
+       cd ByteWizards_Study-Buddy-main
 
-       npm install bcryptjs connect-ensure-login ejs express express-session mongoose multer passport passport-local passport-local-mongoose uuid 
+       npm install bcryptjs connect-ensure-login ejs express express-session mongoose@6.2.1 multer passport passport-local passport-local-mongoose uuid 
        
        nodemon index.js
 
