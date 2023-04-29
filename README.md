@@ -1,8 +1,8 @@
 # ByteVerse_ByteWizards
 Project-Study Buddy
-ppt link-
+PPT link-
 
-video link-
+Video link-
 Presentation Video:-
 
 Implementation Video:- 
