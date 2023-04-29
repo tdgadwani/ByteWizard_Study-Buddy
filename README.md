@@ -62,13 +62,19 @@ For locally setting this project run these commands
 
 
 
-      git clone https://github.com/krcpr007/hackNITP_INQUERA.git
+       git clone https://github.com/krcpr007/hackNITP_INQUERA.git
 
-      cd hackNITP_INQUERA
+      
+      
+       cd hackNITP_INQUERA
 
-      npm install bcryptjs connect-ensure-login ejs express express-session mongoose multer passport passport-local passport-local-mongoose uuid 
+       
+       
+       npm install bcryptjs connect-ensure-login ejs express express-session mongoose multer passport passport-local passport-local-mongoose uuid 
 
-      nodemon index.js
+       
+       
+       nodemon index.js
 
 
 
