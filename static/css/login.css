@@ -45,6 +45,9 @@ font-size: 20px;
 border: transparent;
 margin-left: 160px;
 }
+.login_button:hover{
+    background-color: #707070;
+}
 
 .login_memo{
   position: absolute;
@@ -56,7 +59,7 @@ margin-left: 160px;
 }
 .login_memo img{
 
-    width: 100%;
+    width: 120%;
 }
 
 

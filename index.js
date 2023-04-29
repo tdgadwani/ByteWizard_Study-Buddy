@@ -13,7 +13,7 @@ const bcrypt=require('bcryptjs');
 
 require('./src/db/bytewizards');
 const Register=require("./src/models/registers");
-const Doubt=require("./src/models/doubts") ;
+const Doubt=require("./src/models/doubts");
 
 const port = process.env.PORT || 3000;
 
@@ -21,9 +21,7 @@ const DB='mongodb+srv://tusharg:Tushar123@cluster0.8dg2ppi.mongodb.net/ByteWizar
 
 mongoose.connect(DB,{
     useNewUrlParser:true,
-    //useCreateIndex:true,
     useUnifiedTopology:true,
-    //useFindandModify:false
 }).then(()=>{
     console.log("Connection Succcesful")
 }).catch((err)=>{
@@ -80,8 +78,8 @@ app.get("/register",(req,res)=>{
     res.render("register")
 })
 app.get('/dashboard',connectEnsureLogin.ensureLoggedIn(),(req,res)=>{
-
-    res.redirect('dashboard')
+        res.render('dashboard')
+        // res.render('login')    
 })
 app.get('/group',(req,res)=>{
     res.render('group')
@@ -104,9 +102,15 @@ app.get("/forgotpassword",(req,res)=>{
 app.get('/leaderboard',(req,res)=>{
     res.render('leaderboard')
 })
-app.get("/logout", function (req, res) {
-  req.logout()
-  res.redirect("/login")
+// app.get("/logout", (req, res)=> {
+//   req.logout()
+//   res.redirect("/login")
+// })
+app.get("/logout", (req, res) => {
+  req.logout(req.user, (err) => {
+    if (err) return next(err);
+    res.redirect("index");
+  });
 });
 
 // Creating new user in Database
@@ -189,7 +193,7 @@ app.post('/login',async(req,res)=>{
         if(passwordMatch){
             res.status(201).render('dashboard');//rendering home page
         }
-        r
+        
     }catch(error){
         res.status(400).send(`INVALID ${error}`)
         // document.getElementsByClassName("email_hidden").innerHTML="The password or Email you entered is Invalid";
