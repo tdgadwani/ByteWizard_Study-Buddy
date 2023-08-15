@@ -1,106 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../static/css/bootstrap.min.css" >
-    <link rel="stylesheet" href="../static/css/login.css">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../static/css/login.css" />
+
     <title>Document</title>
-</head>
-<body>
-
-  <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Study Buddy</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/index">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/dashboard">Dashboard</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/group">Group</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/solve">Solve</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/leaderboard">LeaderBoard</a>
-          </li>
-          
-
-          <li class="nav-item">
-              <a class="nav-link" href="/login">Login</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="/register">Sign Up</a>
-            </li>
-         
-        </ul>
-     
-      </div>
-    </div>
-  </nav>
+  </head>
+  <body>
+    <%- include ('partials/navbar')%>
 
     <section class="Login_page">
-        <div class="row">
-
-            <div class="col-lg-6 col-md-12">
-              <div class="login_memo"><img src="../static/img/Memo.svg" alt=""></div>
-                <div class="form_enteries">
-                  <div>
-                    <div class='login_page_head'>
-                      <h2 >Login</h2>
-                    <h6>Don't have an Account? <span><a href="/register">Sign Up</a></span></h6>
-                      </div>
-                  </div>
-
-                    <form action="/login" method="POST"> 
-                        <div class="mb-3">
-                          <label for="exampleInputEmail1" class="form-label">Email address</label>
-                          <input type="email" name="email" class="form-control login_input login_email" id="exampleInputEmail1" aria-describedby="emailHelp">
-                          <label for="" id="login_email_invalid" style="color:red;visibility: hidden;">Invalid</label>
-                           
-                        </div>
-                        <div class="mb-3">
-                          <label for="exampleInputPassword1" class="form-label">Password</label>
-                          <input type="password" name="password" class="form-control login_input login_email" id="exampleInputPassword1">
-                          <label for="" id="login_email_invalid" style="color:red;visibility: hidden;">Invalid</label>
-                        </div>
-                    
-                        <button type="submit" class="btn btn-primary login_button" ><a href="/dashboard"></a>Login</button>
-
-                      </form>
-                     
-                </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="login_memo">
+            <img src="../static/img/Memo.svg" alt="" />
+          </div>
+          <div class="form_enteries">
+            <div>
+              <div class="login_page_head">
+                <h2>Login</h2>
+                <h6>
+                  Don't have an Account?
+                  <span><a href="/register">Sign Up</a></span>
+                </h6>
+              </div>
             </div>
 
-            <div class="col-lg-6 col-md-12">
-                <div class="login_image">
-                    <img src="../static/img/login.svg" alt="">
-                </div>
-            </div>
+            <form action="/login" method="POST">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  name="email"
+                  class="form-control login_input login_email"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+                <label
+                  for=""
+                  id="login_email_invalid"
+                  style="color: red; visibility: hidden"
+                  >Invalid</label
+                >
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  name="password"
+                  class="form-control login_input login_email"
+                  id="exampleInputPassword1"
+                />
+                <label
+                  for=""
+                  id="login_email_invalid"
+                  style="color: red; visibility: hidden"
+                  >Invalid</label
+                >
+              </div>
+
+              <button type="submit" class="btn btn-primary login_button">
+                <a href="/dashboard"></a>Login
+              </button>
+            </form>
+          </div>
         </div>
+
+        <div class="col-lg-6 col-md-12">
+          <div class="login_image">
+            <img src="../static/img/login.svg" alt="" />
+          </div>
+        </div>
+      </div>
     </section>
-    
 
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-
-</body>
+    <script>
+      let email = document.getElementById('email'); 
+      let passowrd = document.getElementById('password')
+      const linkNode = document.querySelector('#link');
+      linkNode.addEventListener('click', () => {
+          fetch('http://localhost:4000/login',{
+            method:'POST', 
+            headers:{
+              contentType:'application/json', 
+            }, 
+            body:JSON.stringify({
+                 email,passowrd
+            })
+          })
+              .then((res) => res.json())
+              .then((res) => {
+                  console.log(res)
+                  localStorage.setItem('tushartoke',token)
+                  const textNode = document.querySelector('#activity');
+                  textNode.textContent = res.activity;
+              });
+      });
+      </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+    </script>
+  </body>
 </html>

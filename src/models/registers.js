@@ -1,5 +1,4 @@
 const mongoose = require('mongoose')
-const passportLocalMongoose = require("passport-local-mongoose")
 const bcrypt=require('bcryptjs')
 const userSchema=new mongoose.Schema({
     firstname:{
@@ -51,9 +50,5 @@ userSchema.pre("save",async function(next){
 })
 
 // Now creating collection for userSchema
-userSchema.plugin(passportLocalMongoose);
-
 const Register=new mongoose.model('Register',userSchema);
-
-
 module.exports=Register;

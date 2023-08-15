@@ -1,0 +1,24 @@
+.error_image{
+    text-align: center;
+
+}
+
+
+
+.button-container{
+    text-align: center;
+}
+
+.error_button{
+    width: 140px;
+height: 50px;
+background: #455A64;
+border-radius: 82px;
+color: white;
+font-size: 20px;
+border: transparent;
+
+}
+.error_button:hover{
+    background-color: #707070;
+}
